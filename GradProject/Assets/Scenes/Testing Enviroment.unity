@@ -3568,7 +3568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 557347804}
   destination: {fileID: 218519624}
-  Material1: {fileID: 2100000, guid: a86f23e51babc544a8f3e240ffe9b263, type: 2}
+  Material1: {fileID: 2100000, guid: 1a96f2c436c09b745985d5faf060545d, type: 2}
   MaterialBasic: {fileID: 2100000, guid: 5ba7d209f622bb44e87b47ce27ee27b7, type: 2}
   Rhand: {fileID: 1557505338}
   layermask:
