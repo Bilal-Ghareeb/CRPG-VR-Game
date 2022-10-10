@@ -18,40 +18,12 @@
  * limitations under the License.
  */
 
-using UnityEditor;
+using System;
 
-namespace Oculus.Interaction.Input.Editor
+namespace Oculus.Interaction.Deprecated
 {
-    [CustomEditor(typeof(InputDataProviderUpdateTriggerOVR))]
-    public class InputDataProviderUpdateTriggerOVREditor : UnityEditor.Editor
+    [Obsolete("This class is no longer being used")]
+    public class InputDataProviderUpdateTriggerOVREditor
     {
-        private SerializedProperty _cameraRigRefProperty;
-        private SerializedProperty _enableUpdateProperty;
-        private SerializedProperty _enableFixedUpdateProperty;
-
-        private void Awake()
-        {
-            _cameraRigRefProperty = serializedObject.FindProperty("_cameraRigRef");
-            _enableUpdateProperty = serializedObject.FindProperty("_enableUpdate");
-            _enableFixedUpdateProperty = serializedObject.FindProperty("_enableFixedUpdate");
-        }
-
-
-        public override void OnInspectorGUI()
-        {
-            base.OnInspectorGUI();
-
-            if (_cameraRigRefProperty.objectReferenceValue is IOVRCameraRigRef)
-            {
-                if (_enableUpdateProperty.boolValue
-                    || _enableFixedUpdateProperty.boolValue)
-                {
-                    EditorGUILayout.HelpBox(
-                        "Using Camera Rig Ref will already trigger an update whenever OVR updates.\n" +
-                        "Activating Enable Update or Enable Fixed Update might cause redundant triggers",
-                        MessageType.Warning);
-                }
-            }
-        }
     }
 }
