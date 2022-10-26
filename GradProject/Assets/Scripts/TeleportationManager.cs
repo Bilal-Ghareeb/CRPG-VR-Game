@@ -34,6 +34,7 @@ public class TeleportationManager : MonoBehaviour
     void Start()
     {
         currentDestination = Instantiate(destination, transform.position, Quaternion.identity);
+        
     }
 
     // This function will toggle ON/OFF teleportation 
@@ -54,7 +55,7 @@ public class TeleportationManager : MonoBehaviour
     // This function will cast a ray to the point where the player should teleport
     private void CheckForDestination()
     {
-        Ray ray = new Ray(transform.position, transform.rotation * Vector3.down);
+        Ray ray = new Ray(transform.position, transform.rotation * Vector3.up);
 
         RaycastHit hit;
 
@@ -62,7 +63,7 @@ public class TeleportationManager : MonoBehaviour
 
         if (b)
         {
-            currentDestination.transform.position = hit.point + new Vector3(0.4f , 0.4f , 0.4f);
+            currentDestination.transform.position = hit.point + new Vector3(0f , 0.4f , 0f);
             currentDestination.SetActive(true);
            
         }
