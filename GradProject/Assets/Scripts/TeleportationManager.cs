@@ -11,11 +11,11 @@ public class TeleportationManager : MonoBehaviour
     [Header("Destenation Game Object Refrence")]
     public GameObject destination;
 
-    [Header("Right Hand Materials after and before Teleportation Toggle ")]
-    public Material Material1;
-    public Material MaterialBasic;
+    [Header("Left Hand Materials after and before Teleportation Toggle ")]
+    public Material MaterialAfter;
+    public Material MaterialBefore;
 
-    [Header("Right Hand Refrence")]
+    [Header("Left Hand Refrence")]
     public GameObject Rhand;
 
     // refrence for the teleportation destination Visual indicator
@@ -47,22 +47,22 @@ public class TeleportationManager : MonoBehaviour
             currentDestination.SetActive(false);
 
             // turn Right hand color back to its normal color when exiting teleportation mode
-            Rhand.GetComponent<SkinnedMeshRenderer>().material = MaterialBasic;
+            Rhand.GetComponent<SkinnedMeshRenderer>().material = MaterialBefore;
         }
     }
 
     // This function will cast a ray to the point where the player should teleport
     private void CheckForDestination()
     {
-        Ray ray = new Ray(transform.position, transform.rotation * Vector3.down);
+        Ray ray = new Ray(transform.position, transform.rotation * Vector3.up);
 
         RaycastHit hit;
 
-       bool b =  Physics.Raycast(ray, out hit, 5 , layermask);
+        bool b =  Physics.Raycast(ray, out hit, 5 , layermask);
 
         if (b)
         {
-            currentDestination.transform.position = hit.point + new Vector3(0.4f , 0.4f , 0.4f);
+            currentDestination.transform.position = hit.point;
             currentDestination.SetActive(true);
            
         }
@@ -73,7 +73,7 @@ public class TeleportationManager : MonoBehaviour
     {
         if (isAiming && currentDestination.activeSelf)
         {
-            player.transform.position = currentDestination.transform.position;
+            player.transform.position = currentDestination.transform.position - new Vector3(0,currentDestination.transform.position.y * 0.48f,0);
             currentDestination.SetActive(false);
         }
     }
@@ -85,7 +85,7 @@ public class TeleportationManager : MonoBehaviour
         if (isAiming)
         {
             // Change Right hand color when switching to teleportation mode
-            Rhand.GetComponent<SkinnedMeshRenderer>().material = Material1;
+            Rhand.GetComponent<SkinnedMeshRenderer>().material = MaterialAfter;
             CheckForDestination();
         }
 

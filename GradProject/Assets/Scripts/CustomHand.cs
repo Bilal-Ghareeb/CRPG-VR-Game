@@ -28,15 +28,15 @@ public class CustomHand : MonoBehaviour
             return;
         }
 
-        if (Hand.GetFingerIsPinching(OVRHand.HandFinger.Index))
+        if (Time.time >= timestamp && Hand.GetFingerIsPinching(OVRHand.HandFinger.Index))
         {
             OnIndexPinch.Invoke(this);
+            timestamp = Time.time + timeBetweenTP;
         }
 
-        if (Time.time >= timestamp && Hand.GetFingerIsPinching(OVRHand.HandFinger.Middle))
+        if (Hand.GetFingerIsPinching(OVRHand.HandFinger.Middle))
         {
             OnMiddlePinch.Invoke(this);
-            timestamp = Time.time + timeBetweenTP;
         }
     }
 
