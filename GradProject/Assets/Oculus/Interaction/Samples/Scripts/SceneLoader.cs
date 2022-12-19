@@ -35,6 +35,15 @@ namespace Oculus.Interaction.Samples
             StartCoroutine(LoadSceneAsync(sceneName));
         }
 
+        public void UiAppear(GameObject ui){
+            ui.SetActive(true);
+        }
+
+
+        public void UiDisappear(GameObject ui){
+            ui.SetActive(false);
+        }
+
         private IEnumerator LoadSceneAsync(string sceneName)
         {
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
@@ -43,5 +52,7 @@ namespace Oculus.Interaction.Samples
                 yield return null;
             }
         }
+
+        
     }
 }

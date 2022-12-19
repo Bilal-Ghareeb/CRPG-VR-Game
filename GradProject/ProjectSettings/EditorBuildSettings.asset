@@ -6,13 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/TestScene3.unity
-    guid: 6b50588f6cae8d345a31421adea0b046
-=======
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: f9f8cbc1b9bb0454d91c6aadb5b084a9
+  - enabled: 1
     path: Assets/Scenes/Hanger.unity
     guid: 8cef833cd5019414882c235ba2e0cd6e
->>>>>>> DimensionDisolve
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8142c63e1aa0eef42a4fa15dafbcaaaa, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ec7c0f4102eaa4a42bc4da32060478e3, type: 2}
