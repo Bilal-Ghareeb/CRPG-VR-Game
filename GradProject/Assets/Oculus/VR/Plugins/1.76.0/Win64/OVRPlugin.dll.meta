@@ -12,6 +12,16 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+<<<<<<< HEAD
+=======
+      : Editor
+    second:
+      enabled: 0
+      settings:
+        CPU: X86_64
+        OS: Windows
+  - first:
+>>>>>>> DimensionDisolve
       Any: 
     second:
       enabled: 0
@@ -19,9 +29,22 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
+<<<<<<< HEAD
       enabled: 0
       settings:
         DefaultValueInitialized: true
+=======
+      enabled: 1
+      settings:
+        CPU: X86_64
+        DefaultValueInitialized: true
+        OS: Windows
+  - first:
+      Standalone: Win64
+    second:
+      enabled: 1
+      settings: {}
+>>>>>>> DimensionDisolve
   userData: 
   assetBundleName: 
   assetBundleVariant: 

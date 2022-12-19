@@ -14,7 +14,11 @@ PluginImporter:
   - first:
       Android: Android
     second:
+<<<<<<< HEAD
       enabled: 1
+=======
+      enabled: 0
+>>>>>>> DimensionDisolve
       settings: {}
   - first:
       Any: 

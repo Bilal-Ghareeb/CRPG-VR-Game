@@ -28,6 +28,7 @@ public class CustomHand : MonoBehaviour
             return;
         }
 
+<<<<<<< HEAD
         if (Hand.GetFingerIsPinching(OVRHand.HandFinger.Middle))
         {
             OnMiddlePinch.Invoke(this);
@@ -37,6 +38,17 @@ public class CustomHand : MonoBehaviour
         {
             OnIndexPinch.Invoke(this);
             timestamp = Time.time + timeBetweenTP;
+=======
+        if (Time.time >= timestamp && Hand.GetFingerIsPinching(OVRHand.HandFinger.Index))
+        {
+            OnIndexPinch.Invoke(this);
+            timestamp = Time.time + timeBetweenTP;
+        }
+
+        if (Hand.GetFingerIsPinching(OVRHand.HandFinger.Middle))
+        {
+            OnMiddlePinch.Invoke(this);
+>>>>>>> DimensionDisolve
         }
     }
 

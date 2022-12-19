@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: edcc6746fb0f3ed4f9db5505670d8550
+=======
+guid: aafc60fba7bbc0545b10a0cb78abce60
+>>>>>>> DimensionDisolve
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -12,6 +16,7 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+<<<<<<< HEAD
       : Editor
     second:
       enabled: 0
@@ -19,6 +24,8 @@ PluginImporter:
         CPU: X86_64
         OS: Windows
   - first:
+=======
+>>>>>>> DimensionDisolve
       Any: 
     second:
       enabled: 0
@@ -26,6 +33,7 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
+<<<<<<< HEAD
       enabled: 1
       settings:
         CPU: X86_64
@@ -36,6 +44,11 @@ PluginImporter:
     second:
       enabled: 1
       settings: {}
+=======
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+>>>>>>> DimensionDisolve
   userData: 
   assetBundleName: 
   assetBundleVariant: 
