@@ -10,22 +10,22 @@ The story begins when a child from the Error Section wakes up in an urgent call,
 
 # Proof of Concept GIfs :hammer_and_wrench:
 
- # Dealing With UI #
+ ## Dealing With UI ##
  ![UI_AdobeExpress](https://user-images.githubusercontent.com/79377889/208544879-3e106509-7a06-4838-a25f-f990c441269c.gif)
  
- # Movement System #
+ ## Movement System ##
  ![Movement_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545034-59b3ba28-5b50-4ce3-9c21-fddb33d559ea.gif)
  
- # Warrior Class First Weapon (Sword) #
+ ## Warrior Class First Weapon (Sword) ##
  ![sword](https://user-images.githubusercontent.com/79377889/208545150-7670e3fc-ab2b-4a22-8846-a8a79112e5e9.gif)
  
- # Warrior Class Second Weapon (Bow) #
+ ## Warrior Class Second Weapon (Bow) ##
  ![Bow_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545226-fbb24422-99f6-48ac-a426-a71a0e552fdd.gif)
 
- # Inventory System #
+ ## Inventory System ##
  ![Inventory_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545267-64c133b8-9166-43e6-8e38-cd440a1a7fee.gif)
  
- # Power Panel Doors Mechanic #
+ ## Power Panel Doors Mechanic ##
  ![Power_Panel_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545313-cec43acb-e6b0-43b9-b221-1656cb4feb0f.gif)
  
  
