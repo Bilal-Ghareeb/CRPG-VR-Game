@@ -14,19 +14,19 @@ The story begins when a child from the Error Section wakes up in an urgent call,
  <img src="https://user-images.githubusercontent.com/79377889/208544879-3e106509-7a06-4838-a25f-f990c441269c.gif" width="400">
  
  ## Movement System ##
- ![Movement_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545034-59b3ba28-5b50-4ce3-9c21-fddb33d559ea.gif)
- 
+ <img src="https://user-images.githubusercontent.com/79377889/208545034-59b3ba28-5b50-4ce3-9c21-fddb33d559ea.gif" width="400">
+
  ## Warrior Class First Weapon (Sword) ##
  ![sword](https://user-images.githubusercontent.com/79377889/208545150-7670e3fc-ab2b-4a22-8846-a8a79112e5e9.gif)
  
  ## Warrior Class Second Weapon (Bow) ##
- ![Bow_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545226-fbb24422-99f6-48ac-a426-a71a0e552fdd.gif)
+ <img src="https://user-images.githubusercontent.com/79377889/208545226-fbb24422-99f6-48ac-a426-a71a0e552fdd.gif" width="400">
 
  ## Inventory System ##
- ![Inventory_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545267-64c133b8-9166-43e6-8e38-cd440a1a7fee.gif)
+ <img src="https://user-images.githubusercontent.com/79377889/208545267-64c133b8-9166-43e6-8e38-cd440a1a7fee.gif" width="400">
  
  ## Power Panel Doors Mechanic ##
- ![Power_Panel_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545313-cec43acb-e6b0-43b9-b221-1656cb4feb0f.gif)
+ <img src="https://user-images.githubusercontent.com/79377889/208545313-cec43acb-e6b0-43b9-b221-1656cb4feb0f.gif" width="400">
  
  # ----------------------------------------------------------------
  
