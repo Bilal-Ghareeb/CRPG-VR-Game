@@ -7,15 +7,6 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:GradProject/Assets/My Assets/3D Models/FireExitSign/Material/SIGN.mat
-  m_Name: SIGN
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
-  m_InvalidKeywords:
-  - _METALLICGLOSSMAP
-  m_LightmapFlags: 4
-=======
   m_Name: Glas
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
@@ -24,7 +15,6 @@ Material:
   - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 2
->>>>>>> DimensionDisolve:GradProject/Assets/Open Panel/materials/Glas.mat
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -121,15 +111,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-<<<<<<< HEAD:GradProject/Assets/My Assets/3D Models/FireExitSign/Material/SIGN.mat
-    - _BaseColor: {r: 0.3015526, g: 0.8000001, b: 0.26252046, a: 1}
-    - _Color: {r: 0.30155256, g: 0.8000001, b: 0.26252043, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-=======
     - _Color: {r: 0, g: 0.8998, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
->>>>>>> DimensionDisolve:GradProject/Assets/Open Panel/materials/Glas.mat
   m_BuildTextureStacks: []
 --- !u!114 &7292235107854477139
 MonoBehaviour:

@@ -63,13 +63,8 @@ public class TeleportationManager : MonoBehaviour
 
         if (b)
         {
-<<<<<<< HEAD
-            currentDestination.transform.position = hit.point + new Vector3(0f , 0.4f , 0f);
-=======
             currentDestination.transform.position = hit.point;
->>>>>>> DimensionDisolve
             currentDestination.SetActive(true);
-           
         }
     }
 

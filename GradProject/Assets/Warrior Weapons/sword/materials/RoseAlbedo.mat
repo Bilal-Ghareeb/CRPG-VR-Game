@@ -8,23 +8,6 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RoseAlbedo
-<<<<<<< HEAD:GradProject/Assets/My Assets/Materials/RoseAlbedo.mat
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _EMISSION
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
-  - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords:
-  - _ALPHABLEND_ON
-  - _METALLICGLOSSMAP
-  m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-=======
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _EMISSION
@@ -39,7 +22,6 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
->>>>>>> DimensionDisolve:GradProject/Assets/Warrior Weapons/sword/materials/RoseAlbedo.mat
   disabledShaderPasses:
   - DepthOnly
   - SHADOWCASTER
@@ -113,21 +95,13 @@ Material:
     - _Cutoff: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-<<<<<<< HEAD:GradProject/Assets/My Assets/Materials/RoseAlbedo.mat
-    - _DstBlend: 10
-=======
     - _DstBlend: 0
->>>>>>> DimensionDisolve:GradProject/Assets/Warrior Weapons/sword/materials/RoseAlbedo.mat
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0.545
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-<<<<<<< HEAD:GradProject/Assets/My Assets/Materials/RoseAlbedo.mat
-    - _Mode: 2
-=======
     - _Mode: 0
->>>>>>> DimensionDisolve:GradProject/Assets/Warrior Weapons/sword/materials/RoseAlbedo.mat
     - _OcclusionStrength: 0
     - _Parallax: 0.02
     - _QueueOffset: 0
@@ -135,19 +109,11 @@ Material:
     - _Smoothness: 0.545
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
-<<<<<<< HEAD:GradProject/Assets/My Assets/Materials/RoseAlbedo.mat
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _UVSec: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 0
-=======
     - _SrcBlend: 1
     - _Surface: 1
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
->>>>>>> DimensionDisolve:GradProject/Assets/Warrior Weapons/sword/materials/RoseAlbedo.mat
     m_Colors:
     - _BaseColor: {r: 0.7396226, g: 0.85508686, b: 1, a: 0.8}
     - _Color: {r: 0.7396226, g: 0.85508686, b: 1, a: 0.8}

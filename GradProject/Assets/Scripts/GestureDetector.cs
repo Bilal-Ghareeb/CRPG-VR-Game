@@ -97,11 +97,6 @@ public class GestureDetector : MonoBehaviour
                 done = true;
 
                 // after that i will invoke what put in the Event if is present
-<<<<<<< HEAD
-                //Debug.Log("New gesture Found :" + currentGesture.name);
-=======
-               // Debug.Log("New gesture Found :" + currentGesture.name);
->>>>>>> DimensionDisolve
                 currentGesture.onRecognized?.Invoke();
             }
             // if the gesture we done is no more recognized
