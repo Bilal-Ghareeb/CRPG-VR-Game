@@ -17,7 +17,7 @@ The story begins when a child from the Error Section wakes up in an urgent call,
  <img src="https://user-images.githubusercontent.com/79377889/208545034-59b3ba28-5b50-4ce3-9c21-fddb33d559ea.gif" width="400">
 
  ## Warrior Class First Weapon (Sword) ##
- ![sword](https://user-images.githubusercontent.com/79377889/208545150-7670e3fc-ab2b-4a22-8846-a8a79112e5e9.gif)
+ <img src="https://user-images.githubusercontent.com/79377889/208545150-7670e3fc-ab2b-4a22-8846-a8a79112e5e9.gif" width="400">
  
  ## Warrior Class Second Weapon (Bow) ##
  <img src="https://user-images.githubusercontent.com/79377889/208545226-fbb24422-99f6-48ac-a426-a71a0e552fdd.gif" width="400">
