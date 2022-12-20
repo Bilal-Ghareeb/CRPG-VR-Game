@@ -11,7 +11,7 @@ The story begins when a child from the Error Section wakes up in an urgent call,
 # Proof of Concept GIfs :hammer_and_wrench:
 
  ## Dealing With UI ##
- <img src="https://user-images.githubusercontent.com/79377889/208544879-3e106509-7a06-4838-a25f-f990c441269c.gif" width="150">
+ <img src="https://user-images.githubusercontent.com/79377889/208544879-3e106509-7a06-4838-a25f-f990c441269c.gif" width="400">
  
  ## Movement System ##
  ![Movement_AdobeExpress](https://user-images.githubusercontent.com/79377889/208545034-59b3ba28-5b50-4ce3-9c21-fddb33d559ea.gif)
