@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wooden_box_01_mtl
-    second: {fileID: 2100000, guid: 2dcaf8c7737809444817737739cdc0cf, type: 2}
+    second: {fileID: 2100000, guid: f49436b005040c542943296b10def8f1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
