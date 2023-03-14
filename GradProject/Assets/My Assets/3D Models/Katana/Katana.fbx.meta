@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 2f93e27dad77cc94dbef0db71460e3d1
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -4298926788151351828
+    second: Corp|Ailes 1Action
+  - first:
+      74: -3053775263301892403
+    second: Corp|Ailes 1Action.001
+  - first:
+      74: -244360876954453343
+    second: Corp|Ailes 2Action
+  - first:
+      74: -2133820174922837370
+    second: Corp|Ailes 2Action.001
+  - first:
+      74: 5084120130679643568
+    second: Corp|Ailes 3Action
+  - first:
+      74: 2704115191438458626
+    second: Corp|Ailes 3Action.001
+  - first:
+      74: -7370544335142874803
+    second: Corp|CorpAction.000
+  - first:
+      74: -105081312142340903
+    second: Corp|CorpAction.001
+  - first:
+      74: -5344573711876088650
+    second: Corp|CylinderAction.001
+  - first:
+      74: 9091391023057619935
+    second: Ailes 3|Ailes 1Action
+  - first:
+      74: -6790014238618013754
+    second: Ailes 3|Ailes 1Action.001
+  - first:
+      74: 6109682266528764936
+    second: Ailes 3|Ailes 2Action
+  - first:
+      74: -4289371377220607835
+    second: Ailes 3|Ailes 2Action.001
+  - first:
+      74: 3624354210375081224
+    second: Ailes 3|Ailes 3Action
+  - first:
+      74: 233651579720855480
+    second: Ailes 3|Ailes 3Action.001
+  - first:
+      74: -1956636677177314525
+    second: Ailes 3|CorpAction.000
+  - first:
+      74: 3645209869166150866
+    second: Ailes 3|CorpAction.001
+  - first:
+      74: -7196263297831721384
+    second: Ailes 3|CylinderAction.001
+  - first:
+      74: 4652126195932258380
+    second: Ailes 2|Ailes 1Action
+  - first:
+      74: -7574710638999767006
+    second: Ailes 2|Ailes 1Action.001
+  - first:
+      74: -7422394397047108647
+    second: Ailes 2|Ailes 2Action
+  - first:
+      74: 6124368289117650593
+    second: Ailes 2|Ailes 2Action.001
+  - first:
+      74: -4345070610218712129
+    second: Ailes 2|Ailes 3Action
+  - first:
+      74: -705974097268788305
+    second: Ailes 2|Ailes 3Action.001
+  - first:
+      74: -2752892444476433119
+    second: Ailes 2|CorpAction.000
+  - first:
+      74: -8525095572235932149
+    second: Ailes 2|CorpAction.001
+  - first:
+      74: 739678991313695040
+    second: Ailes 2|CylinderAction.001
+  - first:
+      74: -2869670359270550489
+    second: Ailes 1|Ailes 1Action
+  - first:
+      74: 2754517912574365906
+    second: Ailes 1|Ailes 1Action.001
+  - first:
+      74: 6363816894723958976
+    second: Ailes 1|Ailes 2Action
+  - first:
+      74: -2409620789028455830
+    second: Ailes 1|Ailes 2Action.001
+  - first:
+      74: 5482909481133263837
+    second: Ailes 1|Ailes 3Action
+  - first:
+      74: -186574969774199337
+    second: Ailes 1|Ailes 3Action.001
+  - first:
+      74: -8190986383722677812
+    second: Ailes 1|CorpAction.000
+  - first:
+      74: -3593681741032879819
+    second: Ailes 1|CorpAction.001
+  - first:
+      74: -1996212010296293779
+    second: Ailes 1|CylinderAction.001
+  - first:
+      74: 7333761456771789350
+    second: Cylinder|Ailes 1Action
+  - first:
+      74: -3905912078500925761
+    second: Cylinder|Ailes 1Action.001
+  - first:
+      74: -1696361943869321580
+    second: Cylinder|Ailes 2Action
+  - first:
+      74: 5266535815192245644
+    second: Cylinder|Ailes 2Action.001
+  - first:
+      74: 2162661724607535622
+    second: Cylinder|Ailes 3Action
+  - first:
+      74: -2298856485755843518
+    second: Cylinder|Ailes 3Action.001
+  - first:
+      74: 6289105888714884703
+    second: Cylinder|CorpAction.000
+  - first:
+      74: 4990143714357958447
+    second: Cylinder|CorpAction.001
+  - first:
+      74: -6242241587816052237
+    second: Cylinder|CylinderAction.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "D\xE9tails"
+    second: {fileID: 2100000, guid: 47eace79adfb39541ac4ba3a4aca1c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garde
+    second: {fileID: 2100000, guid: dc957165fd936424fa7a7202e114a73d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lame
+    second: {fileID: 2100000, guid: 197f0dbe203e1a24b89e0fcc8c84ccb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: c7eb38ac28d06c2439e7137a80cdc234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manche
+    second: {fileID: 2100000, guid: 552c350e0238e634b930d2d4992415ee, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
