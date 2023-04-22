@@ -12,13 +12,20 @@ public class EnemyTransitionController : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
-            GetComponent<Animator>().SetBool("isPunch",true);
+            OnAttackTrigger();
+            GetComponent<Animator>().SetBool("isAttack",true);
         }
     }
 
     void OnTriggerExit (Collider other) {
         if (other.CompareTag("Player")) {
-            GetComponent<Animator>().SetBool("isPunch",false);
+            GetComponent<Animator>().SetBool("isAttack",false);
         }
+    }
+
+    void OnAttackTrigger(){
+        float blendValue = Random.Range(0f, 1f);
+        Debug.Log("Done "+blendValue);
+        GetComponent<Animator>().SetFloat("AttackBlend",blendValue);
     }
 }
