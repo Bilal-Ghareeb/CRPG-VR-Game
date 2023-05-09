@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Text
   - Obstacle
+  - Weapon
+  - Shield
   layers:
   - Default
   - TransparentFX
